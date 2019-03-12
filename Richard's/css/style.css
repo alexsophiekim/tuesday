@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.red{
+    background-color: #e74c3c;
+}
+
+.blue{
+    background-color: #2980b9;
+}
+
+.green{
+    background-color: #16a085;
+}
+
+.yellow{
+    background-color: #f1c40f;
+}
+
+.purple{
+    background-color: #9b59b6;
+}
+
+.grey{
+    background-color: #95a5a6;
+}
+
+.orange{
+    background-color: #e67e22;
+}
+
+.pink{
+    background-color: #ff9ff3;
+}
+
+.skyblue{
+    background-color: #48dbfb;
+}
+
+.lime{
+    background-color: #badc58;
+}
+
+.black{
+    background-color: #2d3436;
+}
+
+.white{
+    background-color: #ecf0f1;
+}
+
+.col{
+    min-height: 100px;
+    float: left;
+    padding: 12px;
+}
+
+.pageContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col12{
+    width: 100%;
+}
+
+.col11{
+    width: 91.66%
+}
+
+.col10{
+    width: 83.33%;
+}
+
+.col9{
+    width: 75%
+}
+
+.col8{
+    width: 66.66%
+}
+
+.col7{
+    width: 58.33%;
+}
+
+.col6{
+    width: 50%;
+}
+
+.col5{
+    width: 41.66%
+}
+
+.col4{
+    width: 33.33%
+}
+
+.col3{
+    width: 25%;
+}
+
+.col2{
+    width: 16.67%
+}
+
+.col1{
+    width: 8.33%;
+}
+
+.row:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.banner{
+    height: 400px;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    bottom: 100px;
+    left: 90px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+
+    .colS12{
+        width: 100%;
+    }
+
+    .colS11{
+        width: 91.66%
+    }
+
+    .colS10{
+        width: 83.33%;
+    }
+
+    .colS9{
+        width: 75%
+    }
+
+    .colS8{
+        width: 66.66%
+    }
+
+    .colS7{
+        width: 58.33%;
+    }
+
+    .colS6{
+        width: 50%;
+    }
+
+    .colS5{
+        width: 41.66%
+    }
+
+    .colS4{
+        width: 33.33%
+    }
+
+    .colS3{
+        width: 25%;
+    }
+
+    .colS2{
+        width: 16.67%
+    }
+
+    .colS1{
+        width: 8.33%;
+    }
+
+    .nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .content{
+        left: auto;
+        right: 80px;
+    }
+
+}
